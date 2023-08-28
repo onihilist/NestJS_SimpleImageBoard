@@ -1,0 +1,1 @@
+check the read me file for installing NodeJs and NestJS
