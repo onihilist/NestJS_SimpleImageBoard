@@ -1,0 +1,11 @@
+<%- include("../partials/header", {title: "Inscription"}) %>
+    <h1>Page d'inscription</h1>
+    <div class="form-group">
+        <form action="" method="post">
+            <%- include("../components/input", {label: "Pseudo", type: "text", name: "username"})%>
+            <%- include("../components/input", {label: "em@il", type: "email", name: "email"})%>
+            <%- include("../components/input", {label: "Mot de passe", type: "password", name: "password"})%>
+            <button type="submit">Inscription</button>
+        </form>
+    </div>
+<%- include("../partials/footer") %>
